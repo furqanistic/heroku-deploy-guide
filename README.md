@@ -107,3 +107,8 @@ Nodejs version error
 "npm": "6.14.15"
 },
 ```
+Dir error
+```bash
+import path from 'path'
+const __dirname = path.resolve()
+```
